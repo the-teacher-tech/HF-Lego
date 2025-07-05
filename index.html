@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSlego</title>
+    <link rel="icon" href="assets/images/logogo-lego.svg" type="image/svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT
+" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.j
+s" integrity="sha384-
+j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHK
+O" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logogo-lego.svg" width="35" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="views/favoritos.html">Favoritos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="views/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Header start -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Bem-Vindo ao "TSlego"</h1>
+            <p class="lead">TSlego significa tudo sobre lego, então é tudo sobre lego!</p>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Carousel star -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">🎯 Destasques em Séries ou Legos</h2>
+        <div id="carouselJogos" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner rounded shadow">
+                <div class="carousel-item active" data-bs-interval="0">
+                    <img src="assets/images/ninjagodragonsrisng.jpg" class="d-block w-100" alt="dragonsrisingserie">
+                </div>
+                <div class="carousel-item" data-bs-interval="0">
+                    <img src="assets/images/cidade de ninjago.png" class="d-block w-100" alt="cidadedeninjagolego">
+                </div>
+                <div class="carousel-item" data-bs-interval="0">
+                    <img src="assets/images/71818batalha.png" class="d-block w-100" alt="batalhadepodereslego">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselJogos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselJogos" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+    <!-- Carousel end -->
+
+    <!-- Tooltip start -->
+    <section class="container py-5">
+        <div class="btn-group d-flex justify-content-center " role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-warning  " data-bs-toggle="tooltip" data-bs-placement="bottom"
+                data-bs-title="Série Lego Ninjago Dragons Rising">
+                Primeira imagem
+            </button>
+            <button type="button" class="btn btn-secondary " data-bs-toggle="tooltip" data-bs-placement="bottom"
+                data-bs-title="Lego da Cidade de ninjago da Série lego Ninjago Dragons Rising (71799)">
+                Segunda imagem
+            </button>
+            <button type="button" class="btn btn-primary " data-bs-toggle="tooltip" data-bs-placement="bottom"
+                data-bs-title="Lego de uma luta do Torneio dos Originais da série lego Ninjago Dragons Rising (71818)">
+                Terceira imagem
+            </button>
+        </div>
+    </section>
+    <!-- Tooltip end -->
+
+    <!-- Mas afinal o que é um lego start -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="mb-4">🧑‍🔧 Mas afinal, o que é/qual o significado de um Lego❓</h2>
+            <ul>
+                <li>
+                    <p>Um lego não é apenas um jogo de consentração a construir peça à peça, que podes criar tudo que
+                        queres.
+                    </p>
+                </li>
+                <li>
+                    <p>É a vida. Um lego representa a vida do ser humano. Largar-se dos díspositivos eletrónicos. Lego é
+                        tudo.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Mas afinal o que é um lego end -->
+
+    <!-- Legos em destaque start -->
+    <section class="container py-5">
+        <h2 class="text-center mb-4">🔥 Legos em Destaque </h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="assets/images/610torneioentrada.webp" class="card-img-top"
+                        alt="Lego de à entrada do Torneio dos Originais da série dragons rising">
+                    <div class="card-body">
+                        <h5 class="card-title">Santuário de Pedra do Dragão</h5>
+                        <p class="card-text">À entrada do torneio dos originais à um debate entre algumas pessoas do
+                            torneio...
+                        </p>
+                        <a href="https://www.lego.com/pt-pt/product/dragon-stone-shrine-71819" target="_blank"
+                            class="btn btn-primary">Comprar lego</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="assets/images/mack escalador do kai.webp" class="card-img-top"
+                        alt="Mack escalador do Kai">
+                    <div class="card-body">
+                        <h5 class="card-title">O Robô Trepador Ninja do Kai</h5>
+                        <p class="card-text">Estavam os ninjas encorralados quando o robô trepador do Kai os ajuda...
+                        </p>
+                        <a href="https://www.lego.com/pt-pt/product/kai-s-ninja-climber-mech-71812" target="_blank"
+                            class="btn btn-primary">Comprar lego</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="assets/images/novo bonty.webp" class="card-img-top" alt="O novo bonty do destino">
+                    <div class="card-body">
+                        <h5 class="card-title">O Navio Pirata do Templo</h5>
+                        <p class="card-text">O novo navio pirata chegou...
+                        </p>
+                        <a href="https://www.lego.com/pt-pt/product/the-temple-bounty-71848" target="_blank"
+                            class="btn btn-primary">Comprar lego</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Legos em Destaque end -->
+
+    <!-- Footer start -->
+    <section>
+        <footer class="bg-black text-white text-center py-3">
+            &copy; 2025 Feito com ❤️ por CheiretaGames | Nome = TSlego
+        </footer>
+    </section>
+    <!-- Footer end -->
+
+
+
+
+
+
+
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</body>
+
+</html>
